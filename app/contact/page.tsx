@@ -71,7 +71,7 @@ function Page() {
         <form onSubmit={onSubmit}>
   <Stack spacing={4}>
     <FormControl>
-      <FormLabel>Name</FormLabel>
+      <FormLabel>Name:</FormLabel>
       <Input type="text" isRequired />
       <FormHelperText fontWeight={500} color={"white"}>
         Just first and second name if you want.
@@ -79,7 +79,7 @@ function Page() {
     </FormControl>
 
     <FormControl>
-      <FormLabel>Email</FormLabel>
+      <FormLabel>Email:</FormLabel>
       <Input type="email" isRequired />
       <FormHelperText fontWeight={500} color={"white"}>
         We will never share your email.
@@ -87,7 +87,7 @@ function Page() {
     </FormControl>
 
     <FormControl>
-      <FormLabel>Phone Number</FormLabel>
+      <FormLabel>Phone Number:</FormLabel>
       <Input type="text" isRequired />
       <FormHelperText fontWeight={500} color={"white"}>
         We may call you to align some things.
@@ -95,7 +95,7 @@ function Page() {
     </FormControl>
 
     <FormControl>
-      <FormLabel>Subject</FormLabel>
+      <FormLabel>Subject:</FormLabel>
       <Input type="text" isRequired />
       <FormHelperText fontWeight={500} color={"white"}>
         Tell us about your interest.
