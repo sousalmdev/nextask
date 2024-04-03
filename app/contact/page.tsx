@@ -30,11 +30,11 @@ function Page() {
     toast.success("Mail Successfully sent!");
   };
 
-  return (
+  return (  <ChakraProvider>
     <div className="flex flex-col items-center justify-center pt-20">
       <ToastContainer />
       <br />
-      <ChakraProvider>
+    
         <Text
           fontWeight={600}
           display={"flex"}
@@ -136,8 +136,8 @@ function Page() {
             </CardFooter>
           </Card>
         </Box>
-      </ChakraProvider>
-    </div>
+    
+    </div>  </ChakraProvider>
   );
 }
 
